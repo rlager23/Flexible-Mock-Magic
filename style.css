@@ -75,6 +75,37 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+footer {
+display: flex;
+justify-content: space-evenly;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    text-align: row;
+    justify-content: flex-start;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.flex-main{
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
